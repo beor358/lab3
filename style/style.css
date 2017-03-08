@@ -1,0 +1,76 @@
+html, body {
+	min-height: 100%;
+	position: relative;
+}
+
+body{ 
+    text-align: center; /*For IE6 Shenanigans*/ 
+} 
+
+
+.wrapper{ 
+    width:960px; 
+    margin:0 auto; 
+    text-align:left; 
+} 
+
+body {
+	background: #e2e2e2; /* для старых браузеров */ 
+	/* для IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#FFCA73'); 
+	/* для браузеров firefox 3.6+ */
+    background: -moz-radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
+    /* для браузеров safari 5.1+ и chrome 3.0+ */
+    background: -webkit-radial-gradient(center, circle, #FFCA73  0%, #FFA800 100%);
+    /* для браузеров opera 11.10+ */
+    background: -o-radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
+    /* для браузеров ie 10+ */
+    background: -ms-radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
+    /* для других браузеров */
+    background: radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
+    background-attachment: fixed;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.image {
+  margin: auto;
+  /*text-align: center;*/
+  width: 35%;
+}
+
+.gallery {
+	width: 100%;
+}
+
+.gallery .photo {
+  max-width: 480px;
+  height: auto; 
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+
+img { width: 100%; }
+
+
+
+.article {
+   	display: block;
+   	background: #F39714;
+   	margin: 15px;
+   	padding: 15px;
+   	border-radius: 10px;
+}
+
+.footer {
+   	margin: 0 auto 0;
+    position: relative;
+}
+
+.new {
+  margin: 15px 10px;
+}
