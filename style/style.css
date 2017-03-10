@@ -19,16 +19,16 @@ body {
 	/* для IE6-9 */
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#FFCA73'); 
 	/* для браузеров firefox 3.6+ */
-    background: -moz-radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
-    /* для браузеров safari 5.1+ и chrome 3.0+ */
-    background: -webkit-radial-gradient(center, circle, #FFCA73  0%, #FFA800 100%);
-    /* для браузеров opera 11.10+ */
-    background: -o-radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
-    /* для браузеров ie 10+ */
-    background: -ms-radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
-    /* для других браузеров */
-    background: radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
-    background-attachment: fixed;
+  background: -moz-radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
+  /* для браузеров safari 5.1+ и chrome 3.0+ */
+  background: -webkit-radial-gradient(center, circle, #FFCA73  0%, #FFA800 100%);
+  /* для браузеров opera 11.10+ */
+  background: -o-radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
+  /* для браузеров ie 10+ */
+  background: -ms-radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
+  /* для других браузеров */
+  background: radial-gradient(center, circle, #e2e2e2  0%, #FFCA73 70%);
+  background-attachment: fixed;
 }
 
 h1, h2 {
@@ -59,18 +59,54 @@ img { width: 100%; }
 
 
 .article {
-   	display: block;
-   	background: #F39714;
-   	margin: 15px;
-   	padding: 15px;
-   	border-radius: 10px;
+  display: block;
+  background: #F39714;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
 }
 
 .footer {
-   	margin: 0 auto 0;
-    position: relative;
+  margin: 0 auto 0;
+  position: relative;
 }
 
-.new {
-  margin: 15px 10px;
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:active {
+  color: #909090;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EF8F07;
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li:last-child {
+  float: right;
+}
+
+.navigation li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  background-color: #CB7700;
 }
